@@ -49,7 +49,13 @@ export default class {
     handleCold(){
         var cold = 0;
         if(this.world.dayCycle.isNight()){
-            cold += 0.05;
+            if(this.world.dayCycle.getDay() > 5){
+                cold += 0.05 + (5 / 80);
+                
+            } else {
+                cold += 0.05 + (this.world.dayCycle.getDay() / 80);
+            }
+            
         } else if(this.world.dayCycle.isDay()){
             cold += -0.05;
         }
