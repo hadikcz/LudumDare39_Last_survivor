@@ -34,7 +34,7 @@ export default class {
     }
     
     generateBushes(){
-        var count = 25;
+        var count = 15;
         for(var i = 0; i < count; i++){
            this.createBush();
         }
@@ -76,7 +76,7 @@ export default class {
             spawn = this._getRandomSpawn();
         }
         if(tries < 10){
-            var resourceCount = this.game.rnd.integerInRange(2, 4);
+            var resourceCount = this.game.rnd.integerInRange(1, 3);
             var resource = new Bush(this.game, spawn.x, spawn.y, resourceCount, this.gameWorld);
             this.bushes.add(resource); 
         }
