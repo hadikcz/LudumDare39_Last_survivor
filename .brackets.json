@@ -1,0 +1,15 @@
+{
+	"brackets-file-tree-exclude.excludeList": [
+		".git/",
+		".brackets.json",
+		".jshintrc",
+		".gitignore",
+        "node_modules/",
+        ".eslintrc.json",
+        ".babelrc",
+        "webpack.config.js",
+        "webpack.production.config.js",
+        "package.json",
+        "/dist/"
+    ]
+}
