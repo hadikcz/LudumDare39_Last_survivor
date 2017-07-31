@@ -7,7 +7,7 @@ This game was develop only for 48 hours into game jam Ludum Dare (compo) https:/
 
 ![Image of game](https://raw.githubusercontent.com/hadikcz/LudumDare39_Last_survivor/master/preview.gif)
 
-#About game:
+# About game:
 My third LD entry. Your task is simple, survive as long as possible. But environment in this game is'nt much friendly. You must eat for hinder hunger, heat yourself for prevent freeze in cold night, and lastly defend yourself before zombies, who are wake up at night. Peace time (day) is limited, every day you must prepare for night, make some supplies for next deadly night.
 
 # Out of time 
