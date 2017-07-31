@@ -3,7 +3,7 @@ Ludum Dare 39
 
 This game was develop only for 48 hours into game jam Ludum Dare (compo) https://ldjam.com
 
-## [PLAY ON WEB!](https://hadikcz.github.io/LudumDare38_Near_kingdoms/)
+## [PLAY ON WEB!](https://hadikcz.github.io/LudumDare39_Last_survivor/)
 
 ![Image of game](https://raw.githubusercontent.com/hadikcz/LudumDare39_Last_survivor/master/preview.gif)
 
@@ -29,17 +29,17 @@ My third LD entry. Your task is simple, survive as long as possible. But environ
 
 
 # Tools:
-Pickaxe:
+**Pickaxe**:
 Basic tool for quicker mine wood and stone, it can't be use for attack, you will attack as free hand.
 
 
-Knife:
+**Knife**:
 First attack weapon, power is poor, but you can survive few nights only with this knife.
 
-Sword:
+**Sword**:
 Advanced weapon for mid game, without upgraded sword, you can't survive for more then 5 days. 
 
-Battle axe:
+**Battle axe**:
 This weapon looks so cool, and it's also very powerfull, fully upgraded battle axe will destroy every zombie wave.
 
 Gameplay: https://youtu.be/TIdfBUCN_kg
