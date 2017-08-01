@@ -34,7 +34,7 @@ export default class {
     }
     
     generateBushes(){
-        var count = 15;
+        var count = 30;
         for(var i = 0; i < count; i++){
            this.createBush();
         }
