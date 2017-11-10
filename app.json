@@ -2,7 +2,7 @@
   "name": "ludumdare39,
   "description": "",
   "scripts": {
-    "start": "webpack",
+    "start": "webpack"
   },
   "repository": "https://github.com/hadikcz/LudumDare39_Last_survivor"
 }
