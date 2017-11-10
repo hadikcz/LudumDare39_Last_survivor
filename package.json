@@ -5,12 +5,20 @@
   "author": "leandro cabrera <leandcabrera@gmail.com>",
   "main": "index.js",
   "scripts": {
+  	"start": "webpack",
     "dev": "webpack",
     "deploy": "webpack --config webpack.production.config.js",
     "test": "eslint ./src/**/**.js"
   },
   "license": "MIT",
   "devDependencies": {
+  },
+  "engines": {
+  	"node": "6.2.0"
+	},
+  "dependencies": {
+    "phaser-ce": "^2.8.0",
+    "webfontloader": "^1.6.28",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
@@ -26,9 +34,5 @@
     "eslint-plugin-standard": "^3.0.1",
     "expose-loader": "^0.7.3",
     "webpack": "^2.6.1"
-  },
-  "dependencies": {
-    "phaser-ce": "^2.8.0",
-    "webfontloader": "^1.6.28"
   }
 }
