@@ -47,3 +47,14 @@ Gameplay: https://youtu.be/TIdfBUCN_kg
 PLAY: https://hadikcz.github.io/LudumDare39_Last_survivor/
 
 Source: https://github.com/hadikcz/LudumDare39_Last_survivor
+
+### Running  with Docker
+If you have [Docker](https://www.docker.com/) installed, after cloning the repository you can run the following commands to start the server and make it acessible at `http://localhost:3000`:
+
+```
+docker build -t ld39hadik .
+docker run -it -p 3000:3000 ld39hadik
+```
+
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
