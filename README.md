@@ -52,6 +52,8 @@ Source: https://github.com/hadikcz/LudumDare39_Last_survivor
 If you have [Docker](https://www.docker.com/) installed, after cloning the repository you can run the following commands to start the server and make it acessible at `http://localhost:3000`:
 
 ```
+sudo git clone https://github.com/hadikcz/LudumDare39_Last_survivor.git &&
+cd LudumDare39_Last_survivor &&
 docker build -t ld39hadik .
 docker run -it -p 3000:3000 ld39hadik
 ```
