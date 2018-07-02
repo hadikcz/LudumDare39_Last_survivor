@@ -19,7 +19,7 @@ export default class extends Phaser.State {
         this.gameName.strokeThickness = 5;
 
         
-        this.credits = this.game.add.text(this.game.width / 2, this.game.height - 15, 'Developed for Ludum Dare 39 by Vladimír Novák', {fill: '#ffcc86', font: '20px Consolas, Arial'});
+        this.credits = this.game.add.text(this.game.width / 2, this.game.height - 15, 'Developed for Ludum Dare #39 by Vladimír Novák', {fill: '#ffcc86', font: '20px Consolas, Arial'});
         this.credits.anchor.setTo(0.5);
 
         this.buttonNormal = this.game.add.button(this.game.width / 2 - 80, this.game.height / 2 - 100, 'buttons', function(){
