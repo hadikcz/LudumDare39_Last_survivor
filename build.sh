@@ -2,7 +2,7 @@
 containerName=node-server-mudfield
 imageName=mudfield-image
 
-docker build -t imageName .
+docker build -t $imageName .
 
 echo Delete old container...
 docker rm -f $containerName
